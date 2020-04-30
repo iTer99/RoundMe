@@ -9,7 +9,7 @@
     iOS 13, iPhone 8 and older device
 ## How can i get it ? ##
 
-Use my repo:  <a href="nguyenthienhoan.github.io.repo" target="_blank">`nguyenthienhoan.github.io.repo`</a>
+Use my repo:  <a href="nguyenthienhoan.github.io/repo" target="_blank">`nguyenthienhoan.github.io/repo`</a>
 ---
 ## You can contact for me at:
 
