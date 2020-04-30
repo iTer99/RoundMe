@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+
+	<key>items</key>
+
+	<array>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.iter99.roundme</string>
+			<key>key</key>
+			<string>EnabledTW</string>
+			<key>label</key>
+			<string>Enabled</string>
+			<key>PostNotification</key>
+			<string>com.iter99.roundme.settingschanged</string>
+		</dict>
+
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Rounded Corner</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>com.iter99.roundme</string>
+			<key>key</key>
+			<string>Corner</string>
+			<key>max</key>
+			<real>50</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.iter99.roundme.settingschanged</string>
+		</dict>
+
+        <dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Rounded Switcher</string>
+			<key>footerText</key>
+			<string>Enabled this will be made dock rounded</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>default</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>com.iter99.roundme</string>
+			<key>key</key>
+			<string>Switcher</string>
+			<key>max</key>
+			<real>50</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.iter99.roundme.settingschanged</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key> 					
+			<string>PSButtonCell</string>
+			<key>action</key> 					
+			<string>Code</string>
+			<key>label</key> 					
+			<string>View source code</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/RoundMe.bundle/icon/github/github.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Socio</string>
+		</dict>
+
+		<dict>
+			<key>cell</key> 					
+			<string>PSButtonCell</string>
+			<key>action</key> 					
+			<string>Facebook</string>
+			<key>label</key> 					
+			<string>FACEBOOK</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/RoundMe.bundle/icon/facebook/facebook.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key> 					
+			<string>PSButtonCell</string>
+			<key>action</key> 					
+			<string>Twitter</string>
+			<key>label</key> 					
+			<string>TWITTER</string>
+			<key>icon</key>
+			<string>/Library/PreferenceBundles/RoundMe.bundle/icon/twitter/twitter.png</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Apply and respring!</string>
+			<key>action</key>
+			<string>respring</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerAlignment</key>
+			<integer>1</integer>
+			<key>footerText</key>
+			<string>Made with ❤️ by iTer99 Dev 🥰</string>
+		</dict>
+
+	</array>
+
+	<key>title</key>
+	<string>RoundMe</string>
+</dict>
+</plist>
