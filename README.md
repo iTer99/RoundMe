@@ -1,4 +1,4 @@
-# RoundMe is a open source
+# RoundMe is a Open source
 
 ---
 
@@ -11,7 +11,7 @@
         - App Switcher
         - Notification
         - Widget
-        - Media Controlls
+        - Media Controls
     
 ## Which device and iOS support ? ##
     iOS 13, A8 to A13 devices
