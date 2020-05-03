@@ -29,6 +29,6 @@ Use my repo:  <a href="nguyenthienhoan.github.io/repo" target="_blank">`nguyenth
 ---
 
 ## Help me special thanks for:
-[ryannair05](https://github.com/ryannair05/)
-[p2kdev](https://github.com/p2kdev/)
-[ConorByrne](https://github.com/cbyrne/)
+- [ryannair05](https://github.com/ryannair05/)
+- [p2kdev](https://github.com/p2kdev/)
+- [ConorByrne](https://github.com/cbyrne/)
