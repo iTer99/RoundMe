@@ -14,7 +14,7 @@
         - Media Controlls
     
 ## Which device and iOS support ? ##
-    iOS 13, iPhone 8 and older device
+    iOS 13, A8 to A13 devices
     
 ## How can i get it ? ##
 Use my repo:  <a href="nguyenthienhoan.github.io/repo" target="_blank">`nguyenthienhoan.github.io/repo`</a>
