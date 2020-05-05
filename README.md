@@ -17,7 +17,7 @@
     iOS 13, A8 to A13 devices
     
 ## How can i get it ? ##
-Use my repo:  <a href="iTer99.github.io/repo" target="_blank">`iTer99.github.io/repo`</a>
+Use my repo: <a href="http://iTer99.github.io/repo" target="_blank">`iTer99.github.io/repo`</a>
 
 ---
 
