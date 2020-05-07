@@ -1,4 +1,4 @@
-# Hello, RoundMe is a Open source
+# RoundMe is a Open source
 
 ---
 
