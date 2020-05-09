@@ -32,6 +32,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>default</key>
 			<integer>10</integer>
 			<key>defaults</key>
@@ -60,6 +62,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>default</key>
 			<integer>10</integer>
 			<key>defaults</key>
@@ -86,6 +90,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>default</key>
 			<integer>10</integer>
 			<key>defaults</key>
@@ -101,7 +107,8 @@
 			<key>PostNotification</key>
 			<string>com.iter99.roundme.settingschanged</string>
 		</dict>
-				<dict>
+		
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -111,6 +118,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>default</key>
 			<integer>10</integer>
 			<key>defaults</key>
@@ -126,7 +135,8 @@
 			<key>PostNotification</key>
 			<string>com.iter99.roundme.settingschanged</string>
 		</dict>
-				<dict>
+		
+		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -136,6 +146,8 @@
 		<dict>
 			<key>cell</key>
 			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
 			<key>default</key>
 			<integer>10</integer>
 			<key>defaults</key>
@@ -151,7 +163,35 @@
 			<key>PostNotification</key>
 			<string>com.iter99.roundme.settingschanged</string>
 		</dict>
+		
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Rounded Dock</string>
+		</dict>
 
+		<dict>
+			<key>cell</key>
+			<string>PSSliderCell</string>
+			<key>isSegmented</key>
+			<true/>
+			<key>default</key>
+			<integer>10</integer>
+			<key>defaults</key>
+			<string>com.iter99.roundme</string>
+			<key>key</key>
+			<string>Dock</string>
+			<key>max</key>
+			<real>50</real>
+			<key>min</key>
+			<real>0</real>
+			<key>showValue</key>
+			<true/>
+			<key>PostNotification</key>
+			<string>com.iter99.roundme.settingschanged</string>
+		</dict>
+		
 		<dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>

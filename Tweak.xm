@@ -21,7 +21,7 @@ static int RoundedSwitcher = 10;
 static int RoundedWidget = 10;
 static int RoundedNotification = 10;
 static int RoundedPlater = 10;
-
+static int RoundedDock = 10;
 
 %hook _UIRootWindow
 -(void)layoutSubviews
@@ -54,22 +54,29 @@ static int RoundedPlater = 10;
   {
 	MTMaterialLayer *orig = %orig;
   
-	if ([self.superview class] == objc_getClass("WGWidgetPlatterView"))
+  if ([self.superview class] == objc_getClass("WGWidgetPlatterView"))
 		{
 			orig.cornerRadius = RoundedWidget;
 		}
 	
-  if ([self.superview class] == objc_getClass("NCNotificationShortLookView"))	
+  if ([self.superview class] == objc_getClass("NCNotificationShortLookView"))
 		{
 			orig.cornerRadius = RoundedNotification;
-    }   
-	
-  if  ([self.superview class] == objc_getClass("PLPlatterView"))
+		}   
+
+  if ([self.superview class] == objc_getClass("PLPlatterView"))
 		{
 			orig.cornerRadius = RoundedPlater;
 		}
+		
+  if (([self.superview class] == objc_getClass("SBDockView")) || ([self.superview class] == objc_getClass("SBFloatingDockView")))
+		{
+			orig.cornerRadius = RoundedDock;
+		}
   }
+  
   return %orig;
+  
 }
 %end
 
@@ -100,6 +107,11 @@ static void reloadSettings() {
     if (CFBridgingRelease(CFPreferencesCopyAppValue((CFStringRef)@"Platter", RoundMePrefsKey))) {
     RoundedPlater = [(id)CFPreferencesCopyAppValue((CFStringRef)@"Platter", RoundMePrefsKey) intValue];
   }
+  
+    if (CFBridgingRelease(CFPreferencesCopyAppValue((CFStringRef)@"Dock", RoundMePrefsKey))) {
+    RoundedDock = [(id)CFPreferencesCopyAppValue((CFStringRef)@"Dock", RoundMePrefsKey) intValue];
+  }
+  
 }
 
 static void respring(CFNotificationCenterRef center, void *observer, CFStringRef name, const void *object, CFDictionaryRef userInfo) {

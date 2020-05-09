@@ -1,6 +1,6 @@
 include $(THEOS)/makefiles/common.mk
 
-export ARCHS = arm64 arm64e
+ARCHS = arm64 arm64e
 
 BUNDLE_NAME = RoundMe
 RoundMe_FILES = RMRootListController.m
