@@ -12,6 +12,7 @@
         - Notification
         - Widget
         - Media Controls
+        - Dock
     
 ## Which device and iOS support ? ##
     iOS 13, A8 to A13 devices
